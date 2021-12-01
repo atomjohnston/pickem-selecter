@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>pick-em</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Nicknames.fs" />
+    <Compile Include="Standings.Types.fs" />
+    <Compile Include="Standings.Functions.fs" />
+    <Compile Include="Picks.Types.fs" />
+    <Compile Include="Picks.Functions.fs" />
+    <Compile Include="PFRef.fs" />
+    <Compile Include="OddsShark.fs" />
+    <Compile Include="Cli.Types.fs" />
+    <Compile Include="Cli.Functions.fs" />
+    <Compile Include="IO.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="4.0.1" />
+    <PackageReference Include="Spectre.Console" Version="0.38.0" />
+  </ItemGroup>
+</Project>
